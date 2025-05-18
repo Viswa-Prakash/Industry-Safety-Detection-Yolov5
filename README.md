@@ -46,7 +46,7 @@ aws configure
 ## How to run?
 
 ```bash
-conda create -n safety python=3.8 -y
+conda create -n safety python=3.10 -y
 ```
 
 ```bash
