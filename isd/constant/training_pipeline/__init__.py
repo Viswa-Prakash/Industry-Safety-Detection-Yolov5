@@ -22,3 +22,18 @@ DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_STATUS_FILE = 'status.txt'
 
 DATA_VALIDATION_ALL_REQUIRED_FILES = ["images", "labels", "classes.names", "train.txt", "val.txt"]
+
+
+"""
+MODEL TRAINER related constant start with MODEL_TRAINER var name
+"""
+MODEL_TRAINER_DIR_NAME: str = "model_trainer"
+
+MODEL_TRAINER_PRETRAINED_WEIGHT_URL: str = "https://github.com/ultralytics/yolov5/releases/download/v6.0/yolov5s.pt"
+
+MODEL_TRAINER_NO_EPOCHS: int = 1
+
+MODEL_TRAINER_BATCH_SIZE: int = 8
+
+
+
